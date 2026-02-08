@@ -340,6 +340,14 @@ class MatchScraper:
             print(f"Commentary saved ({len(final_df)} events)")
             logger.info(f"Commentary saved: {len(final_df)} total events")
 
+            # Save commentary to ADLS
+            print(f"Saving metadata to ADLS...")
+            logger.info("Saving metadata to ADLS")
+            save_dataframe_to_adls(df=final_df, partition_key_column="matchid", file_format="csv",
+                                   file_name="match_events")
+            print(f"match_events saved to ADLS")
+            logger.info(f"match_events saved to ADLS")
+
             # Save metadata to DB
             print(f"Saving metadata to database...")
             logger.info("Saving metadata to database")
@@ -347,10 +355,10 @@ class MatchScraper:
             print(f"Metadata saved ({len(metadata_df)} rows)")
             logger.info(f"Metadata saved with super_over_count={metadata['super_over_count']}")
 
-            # Save metadata to DB
+            # Save metadata to ADLS
             print(f"Saving metadata to ADLS...")
             logger.info("Saving metadata to ADLS")
-            save_dataframe_to_adls(df = metadata_df,partition_key_column="matchid",file_format="csv",file_name = "metadata")
+            save_dataframe_to_adls(df = metadata_df,partition_key_column="matchid",file_format="json",file_name = "metadata")
             print(f"Metadata saved to ADLS")
             logger.info(f"Metadata saved to ADLS")
 
@@ -363,6 +371,14 @@ class MatchScraper:
 
             print(f"    ✓ Successfully scraped match {match_id}")
             logger.info(f"Successfully completed scraping match {match_id}")
+
+            # Save players to ADLS
+            print(f"Saving players to ADLS...")
+            logger.info("Saving players to ADLS")
+            save_dataframe_to_adls(df=players_df, partition_key_column="matchid", file_format="csv",
+                                   file_name="match_players")
+            print(f"players saved to ADLS")
+            logger.info(f"players saved to ADLS")
 
         except TimeoutException as e:
             error_msg = f"Timeout error after {self.max_retries} retries: {str(e)[:200]}"
