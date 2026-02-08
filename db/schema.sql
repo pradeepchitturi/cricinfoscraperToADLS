@@ -118,7 +118,7 @@ ADD COLUMN IF NOT EXISTS series_result TEXT DEFAULT NULL;
 
 -- Add player_of_series column to raw.metadata table
 ALTER TABLE raw.match_metadata
-ADD COLUMN IF NOT EXISTS player_of_series TEXT DEFAULT NULL,
+ADD COLUMN IF NOT EXISTS player_of_the_series TEXT DEFAULT NULL,
 ADD COLUMN IF NOT EXISTS match_number TEXT DEFAULT NULL,
 ADD COLUMN IF NOT EXISTS t20i_debut TEXT DEFAULT NULL;
 
