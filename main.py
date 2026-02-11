@@ -282,7 +282,7 @@ def scrape_cricket_data():
     # ========================================================================
     # Fetch Match Schedule with Retry Logic
     # ========================================================================
-    schedule_url = "https://www.espncricinfo.com/live-cricket-match-results?quick_class_id=men,intl"
+    schedule_url = "https://www.espncricinfo.com/live-cricket-match-results?quick_class_id=men,t20,intl"
 
     print(f"\nFetching match schedule from Cricinfo...")
     logger.info("Fetching match schedule from Cricinfo")

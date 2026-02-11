@@ -171,8 +171,8 @@ CREATE INDEX IF NOT EXISTS idx_tracker_status ON raw.match_download_tracker(stat
 
 
 -- Add index for better query performance
-CREATE INDEX IF NOT EXISTS idx_raw_metadata_player_of_series
-ON raw.match_metadata(player_of_series);
+CREATE INDEX IF NOT EXISTS idx_raw_metadata_player_of_the_series
+ON raw.match_metadata(player_of_the_series);
 -- ============================================================================
 -- Success Message
 -- ============================================================================

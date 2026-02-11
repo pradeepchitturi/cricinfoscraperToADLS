@@ -1,23 +1,23 @@
 ,matchid,innings,team,player_name,batted,batting_position,player_type,retired,not_out,bowled
-0,1519137,innings_1,Ireland,Paul Stirling,True,1.0,regular,False,False,
-30,1519137,innings_2,Ireland,Barry McCarthy,False,,regular,,,True
-29,1519137,innings_2,Ireland,Mark Adair,False,,regular,,,True
-28,1519137,innings_2,Ireland,Matthew Humphreys,False,,regular,,,True
-27,1519137,innings_1,Italy,Harry Manenti,False,,regular,,,True
-26,1519137,innings_1,Italy,Crishan Kalugamage,False,,regular,,,True
-25,1519137,innings_1,Italy,Jaspreet Singh,False,,regular,,,True
-24,1519137,innings_1,Italy,Thomas Draca,False,,regular,,,True
-23,1519137,innings_1,Italy,Grant Stewart,False,,regular,,,True
-22,1519137,innings_1,Italy,JJ Smuts,False,,regular,,,True
-21,1519137,innings_2,Italy,Gian-Piero Meade,False,,regular,False,False,
-17,1519137,innings_2,Italy,Marcus Campopiano,False,,regular,False,False,
-31,1519137,innings_2,Ireland,Josh Little,False,,regular,,,True
-14,1519137,innings_2,Italy,Wayne Madsen,True,4.0,regular,False,True,
-12,1519137,innings_2,Italy,Anthony Mosca,True,2.0,regular,False,False,
-11,1519137,innings_2,Italy,Justin Mosca,True,1.0,regular,False,False,
-6,1519137,innings_1,Ireland,Gareth Delany,False,,regular,False,False,
-5,1519137,innings_1,Ireland,George Dockrell,True,6.0,regular,False,False,
-4,1519137,innings_1,Ireland,Ben Calitz,True,5.0,regular,False,False,
-3,1519137,innings_1,Ireland,Lorcan Tucker,True,4.0,regular,False,False,
-2,1519137,innings_1,Ireland,Harry Tector,True,3.0,regular,False,True,
-1,1519137,innings_1,Ireland,Ross Adair,True,2.0,regular,False,False,
+0,1512724,innings_1,Sri Lanka,Pathum Nissanka,True,1.0,regular,False,False,
+31,1512724,innings_2,Sri Lanka,Dunith Wellalage,False,,regular,,,True
+30,1512724,innings_2,Sri Lanka,Matheesha Pathirana,False,,regular,,,True
+29,1512724,innings_2,Sri Lanka,Maheesh Theekshana,False,,regular,,,True
+28,1512724,innings_2,Sri Lanka,Dushmantha Chameera,False,,regular,,,True
+27,1512724,innings_1,Ireland,Harry Tector,False,,regular,,,True
+26,1512724,innings_1,Ireland,Gareth Delany,False,,regular,,,True
+25,1512724,innings_1,Ireland,George Dockrell,False,,regular,,,True
+24,1512724,innings_1,Ireland,Barry McCarthy,False,,regular,,,True
+23,1512724,innings_1,Ireland,Mark Adair,False,,regular,,,True
+22,1512724,innings_1,Ireland,Matthew Humphreys,False,,regular,,,True
+16,1512724,innings_2,Ireland,Ben Calitz,True,6.0,regular,False,False,
+15,1512724,innings_2,Ireland,Curtis Campher,True,5.0,regular,False,False,
+1,1512724,innings_1,Sri Lanka,Kamil Mishara,True,2.0,regular,False,False,
+2,1512724,innings_1,Sri Lanka,Kusal Mendis,True,3.0,regular,False,True,
+3,1512724,innings_1,Sri Lanka,Pavan Rathnayake,True,4.0,regular,False,False,
+5,1512724,innings_1,Sri Lanka,Kamindu Mendis,True,6.0,regular,False,False,
+6,1512724,innings_1,Sri Lanka,Dasun Shanaka,True,7.0,regular,False,False,
+32,1512724,innings_2,Sri Lanka,Wanindu Hasaranga,False,,regular,,,True
+11,1512724,innings_2,Ireland,Paul Stirling,True,1.0,regular,False,False,
+12,1512724,innings_2,Ireland,Ross Adair,True,2.0,regular,False,False,
+14,1512724,innings_2,Ireland,Lorcan Tucker,True,4.0,regular,False,False,
