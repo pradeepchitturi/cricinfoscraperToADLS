@@ -1,23 +1,23 @@
 ,matchid,innings,team,player_name,batted,batting_position,player_type,retired,not_out,bowled
-0,1512724,innings_1,Sri Lanka,Pathum Nissanka,True,1.0,regular,False,False,
-31,1512724,innings_2,Sri Lanka,Dunith Wellalage,False,,regular,,,True
-30,1512724,innings_2,Sri Lanka,Matheesha Pathirana,False,,regular,,,True
-29,1512724,innings_2,Sri Lanka,Maheesh Theekshana,False,,regular,,,True
-28,1512724,innings_2,Sri Lanka,Dushmantha Chameera,False,,regular,,,True
-27,1512724,innings_1,Ireland,Harry Tector,False,,regular,,,True
-26,1512724,innings_1,Ireland,Gareth Delany,False,,regular,,,True
-25,1512724,innings_1,Ireland,George Dockrell,False,,regular,,,True
-24,1512724,innings_1,Ireland,Barry McCarthy,False,,regular,,,True
-23,1512724,innings_1,Ireland,Mark Adair,False,,regular,,,True
-22,1512724,innings_1,Ireland,Matthew Humphreys,False,,regular,,,True
-16,1512724,innings_2,Ireland,Ben Calitz,True,6.0,regular,False,False,
-15,1512724,innings_2,Ireland,Curtis Campher,True,5.0,regular,False,False,
-1,1512724,innings_1,Sri Lanka,Kamil Mishara,True,2.0,regular,False,False,
-2,1512724,innings_1,Sri Lanka,Kusal Mendis,True,3.0,regular,False,True,
-3,1512724,innings_1,Sri Lanka,Pavan Rathnayake,True,4.0,regular,False,False,
-5,1512724,innings_1,Sri Lanka,Kamindu Mendis,True,6.0,regular,False,False,
-6,1512724,innings_1,Sri Lanka,Dasun Shanaka,True,7.0,regular,False,False,
-32,1512724,innings_2,Sri Lanka,Wanindu Hasaranga,False,,regular,,,True
-11,1512724,innings_2,Ireland,Paul Stirling,True,1.0,regular,False,False,
-12,1512724,innings_2,Ireland,Ross Adair,True,2.0,regular,False,False,
-14,1512724,innings_2,Ireland,Lorcan Tucker,True,4.0,regular,False,False,
+0,1519636,innings_1,Pakistan,Sahibzada Farhan,True,1.0,regular,False,False,
+19,1519636,innings_2,Australia,Xavier Bartlett,True,9.0,regular,False,True,
+20,1519636,innings_2,Australia,Adam Zampa,True,10.0,regular,False,True,
+21,1519636,innings_2,Australia,Mahli Beardman,False,,regular,False,False,
+23,1519636,innings_1,Australia,Cooper Connolly,False,,regular,,,True
+24,1519636,innings_1,Australia,Matthew Short,False,,regular,,,True
+18,1519636,innings_2,Australia,Jack Edwards,True,8.0,regular,False,False,
+28,1519636,innings_1,Australia,Cameron Green,False,,regular,,,True
+29,1519636,innings_2,Pakistan,Shaheen Shah Afridi,False,,regular,,,True
+30,1519636,innings_2,Pakistan,Saim Ayub,False,,regular,,,True
+31,1519636,innings_2,Pakistan,Salman Mirza,False,,regular,,,True
+32,1519636,innings_2,Pakistan,Shadab Khan,False,,regular,,,True
+33,1519636,innings_2,Pakistan,Abrar Ahmed,False,,regular,,,True
+17,1519636,innings_2,Australia,Josh Philippe,True,7.0,regular,False,False,
+2,1519636,innings_1,Pakistan,Salman Agha,True,3.0,regular,False,False,
+3,1519636,innings_1,Pakistan,Babar Azam,True,4.0,regular,False,False,
+4,1519636,innings_1,Pakistan,Fakhar Zaman,True,5.0,regular,False,False,
+5,1519636,innings_1,Pakistan,Usman Khan,True,6.0,regular,False,False,
+6,1519636,innings_1,Pakistan,Mohammad Nawaz,True,7.0,regular,False,True,
+16,1519636,innings_2,Australia,Mitchell Owen,True,6.0,regular,False,False,
+12,1519636,innings_2,Australia,Travis Head,True,2.0,regular,False,False,
+14,1519636,innings_2,Australia,Matt Renshaw,True,4.0,regular,False,False,

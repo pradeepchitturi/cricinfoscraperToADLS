@@ -59,8 +59,9 @@ class CommentaryParser:
                     ]
 
                     # STEP 3: Extract commentary from p and strong tags
-                    p_texts = [p.get_text(strip=True) for p in block.find_all("p")]
-                    strong_texts = [strong.get_text(strip=True) for strong in block.find_all("strong")]
+                    p_texts = [p.get_text(strip=True).replace(",", "-") for p in block.find_all("p")]
+                    strong_texts = [strong.get_text(strip=True).replace(",", "-") for strong in
+                                    block.find_all("strong")]
 
                     # Combine p_texts and strong_texts
                     commentary_parts = p_texts + strong_texts
@@ -274,6 +275,7 @@ class CommentaryParser:
                 return pd.DataFrame()
 
             # Create DataFrame
+            #print(parsed_data)
             df = pd.DataFrame(parsed_data)
             #df.to_csv('people.csv')
             num_columns = df.shape[1]
