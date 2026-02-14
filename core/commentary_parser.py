@@ -90,9 +90,9 @@ class CommentaryParser:
 
                     # Build the row - include header text at the beginning
                     if header_text:
-                        all_text = [str(idx)]+[header_text] + span_texts + [p_and_strong_combined]
+                        all_text = [str(idx+1)]+[header_text] + span_texts + [p_and_strong_combined]
                     else:
-                        all_text = [str(idx)]+span_texts + [p_and_strong_combined]
+                        all_text = [str(idx+1)]+span_texts + [p_and_strong_combined]
 
                     # STEP 5: CLEAN UP "See all photos" marker
                     all_text = CommentaryParser._clean_photo_markers(all_text)
@@ -195,15 +195,13 @@ class CommentaryParser:
 
         # Use most common column count as target
         target_columns = max(column_counts, key=column_counts.get)
-        print(target_columns)
+        #print(target_columns)
         logger.info(f"Normalizing to {target_columns} columns (most common)")
 
         normalized = []
 
         for row in data:
             current_length = len(row)
-            print("\n")
-            print(row)
 
             if current_length == target_columns:
                 # Already correct
