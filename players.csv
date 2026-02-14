@@ -1,23 +1,23 @@
 ,matchid,innings,team,player_name,batted,batting_position,player_type,retired,not_out,bowled
-0,1519636,innings_1,Pakistan,Sahibzada Farhan,True,1.0,regular,False,False,
-19,1519636,innings_2,Australia,Xavier Bartlett,True,9.0,regular,False,True,
-20,1519636,innings_2,Australia,Adam Zampa,True,10.0,regular,False,True,
-21,1519636,innings_2,Australia,Mahli Beardman,False,,regular,False,False,
-23,1519636,innings_1,Australia,Cooper Connolly,False,,regular,,,True
-24,1519636,innings_1,Australia,Matthew Short,False,,regular,,,True
-18,1519636,innings_2,Australia,Jack Edwards,True,8.0,regular,False,False,
-28,1519636,innings_1,Australia,Cameron Green,False,,regular,,,True
-29,1519636,innings_2,Pakistan,Shaheen Shah Afridi,False,,regular,,,True
-30,1519636,innings_2,Pakistan,Saim Ayub,False,,regular,,,True
-31,1519636,innings_2,Pakistan,Salman Mirza,False,,regular,,,True
-32,1519636,innings_2,Pakistan,Shadab Khan,False,,regular,,,True
-33,1519636,innings_2,Pakistan,Abrar Ahmed,False,,regular,,,True
-17,1519636,innings_2,Australia,Josh Philippe,True,7.0,regular,False,False,
-2,1519636,innings_1,Pakistan,Salman Agha,True,3.0,regular,False,False,
-3,1519636,innings_1,Pakistan,Babar Azam,True,4.0,regular,False,False,
-4,1519636,innings_1,Pakistan,Fakhar Zaman,True,5.0,regular,False,False,
-5,1519636,innings_1,Pakistan,Usman Khan,True,6.0,regular,False,False,
-6,1519636,innings_1,Pakistan,Mohammad Nawaz,True,7.0,regular,False,True,
-16,1519636,innings_2,Australia,Mitchell Owen,True,6.0,regular,False,False,
-12,1519636,innings_2,Australia,Travis Head,True,2.0,regular,False,False,
-14,1519636,innings_2,Australia,Matt Renshaw,True,4.0,regular,False,False,
+0,1512739,innings_1,United States of America,Monank Patel,True,1.0,regular,False,False,
+31,1512739,innings_2,United States of America,Shadley van Schalkwyk,False,,regular,,,True
+30,1512739,innings_2,United States of America,Harmeet Singh,False,,regular,,,True
+29,1512739,innings_2,United States of America,Nosthush Kenjige,False,,regular,,,True
+28,1512739,innings_2,United States of America,Ali Khan,False,,regular,,,True
+27,1512739,innings_1,Netherlands,Bas de Leede,False,,regular,,,True
+26,1512739,innings_1,Netherlands,Roelof van der Merwe,False,,regular,,,True
+25,1512739,innings_1,Netherlands,Fred Klaassen,False,,regular,,,True
+24,1512739,innings_1,Netherlands,Kyle Klein,False,,regular,,,True
+23,1512739,innings_1,Netherlands,Logan van Beek,False,,regular,,,True
+22,1512739,innings_1,Netherlands,Aryan Dutt,False,,regular,,,True
+16,1512739,innings_2,Netherlands,Zach Lion-Cachet,True,6.0,regular,False,False,
+15,1512739,innings_2,Netherlands,Scott Edwards,True,5.0,regular,False,False,
+1,1512739,innings_1,United States of America,Shayan Jahangir,True,2.0,regular,False,False,
+2,1512739,innings_1,United States of America,Saiteja Mukkamalla,True,3.0,regular,False,False,
+3,1512739,innings_1,United States of America,Sanjay Krishnamurthi,True,4.0,regular,False,False,
+4,1512739,innings_1,United States of America,Shubham Ranjane,True,5.0,regular,False,True,
+5,1512739,innings_1,United States of America,Milind Kumar,True,6.0,regular,False,False,
+32,1512739,innings_2,United States of America,Mohammad Mohsin,False,,regular,,,True
+11,1512739,innings_2,Netherlands,Michael Levitt,True,1.0,regular,False,False,
+12,1512739,innings_2,Netherlands,Max O'Dowd,True,2.0,regular,False,False,
+14,1512739,innings_2,Netherlands,Colin Ackermann,True,4.0,regular,False,False,

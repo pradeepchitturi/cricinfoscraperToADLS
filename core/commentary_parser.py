@@ -90,9 +90,9 @@ class CommentaryParser:
 
                     # Build the row - include header text at the beginning
                     if header_text:
-                        all_text = [header_text] + span_texts + [p_and_strong_combined]
+                        all_text = [str(idx)]+[header_text] + span_texts + [p_and_strong_combined]
                     else:
-                        all_text = span_texts + [p_and_strong_combined]
+                        all_text = [str(idx)]+span_texts + [p_and_strong_combined]
 
                     # STEP 5: CLEAN UP "See all photos" marker
                     all_text = CommentaryParser._clean_photo_markers(all_text)
@@ -195,12 +195,15 @@ class CommentaryParser:
 
         # Use most common column count as target
         target_columns = max(column_counts, key=column_counts.get)
+        print(target_columns)
         logger.info(f"Normalizing to {target_columns} columns (most common)")
 
         normalized = []
 
         for row in data:
             current_length = len(row)
+            print("\n")
+            print(row)
 
             if current_length == target_columns:
                 # Already correct
@@ -282,16 +285,16 @@ class CommentaryParser:
             logger.info(f"DataFrame created with {len(df)} rows and {num_columns} columns")
 
             # Handle based on column count
-            if num_columns == 5:
+            if num_columns == 6:
                 # Format: [ball, runs/wicket, description, score, empty, commentary]
-                df.columns = ["Event", "Ball", "Runs_Wicket","Extra", "Commentary"]
+                df.columns = ["match_ball_number","Event", "Ball", "Runs_Wicket","Extra", "Commentary"]
 
                 # Drop unnecessary columns
                 df = df.drop(["Runs_Wicket", "Extra"], axis=1)
 
-            elif num_columns == 6:
+            elif num_columns == 7:
                 # Format: [ball, runs/wicket, description, score, photo_indicator, empty, commentary]
-                df.columns = ["Event","Ball", "Runs_Wicket", "Photo", "Extra", "Commentary"]
+                df.columns = ["match_ball_number","Event","Ball", "Runs_Wicket", "Photo", "Extra", "Commentary"]
 
                 # Fill missing Commentary from Extra if needed
                 df['Commentary'] = df.apply(

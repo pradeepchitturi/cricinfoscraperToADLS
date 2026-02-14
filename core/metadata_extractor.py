@@ -46,7 +46,7 @@ class MetadataExtractor:
 
                     # Combine all remaining spans for the value (handles multi-span values)
                     value_parts = [span.get_text(strip=True) for span in spans[1:]]
-                    value = " ".join(value_parts).strip()
+                    value = ",".join(value_parts).strip()
 
                     if key and value:
                         metadata[key] = value
@@ -491,29 +491,6 @@ class MetadataExtractor:
         """
         print("finding team name")
         try:
-            # Strategy 1: Look in parent hierarchy
-            current = table
-
-            for level in range(10):
-                parent = current.find_parent()
-                if not parent:
-                    break
-
-                team_div = parent.find("div", class_="ds-bg-color-primary-bg ds-p-3")
-
-                if team_div:
-                    team_span = team_div.find("span", class_="ds-text-title-1 ds-font-semibold ds-capitalize ds-text-color-text")
-
-                    if team_span:
-                        team_name = team_span.get_text(strip=True)
-                        team_name = MetadataExtractor._clean_team_name(team_name)
-
-                        if team_name:
-                            logger.debug(f"Found team name at level {level}: '{team_name}'")
-                            return team_name
-
-                current = parent
-
             # Strategy 2: Search for span directly
             team_span = table.find_previous("span", class_="ds-text-title-1 ds-font-semibold ds-capitalize ds-text-color-text")
 

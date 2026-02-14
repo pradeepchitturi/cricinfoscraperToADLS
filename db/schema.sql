@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS raw.match_metadata (
 
 CREATE TABLE IF NOT EXISTS raw.match_events (
     id SERIAL PRIMARY KEY,
+    match_ball_number BIGINT,
     ball VARCHAR(10),
     event TEXT,
     score VARCHAR(50),
